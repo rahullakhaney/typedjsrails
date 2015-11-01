@@ -1,41 +1,57 @@
-# Typedjsrails
+# Typed.js Gem
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/typedjsrails`. To experiment with that code, run `bin/console` for an interactive prompt.
+[Developed by Matt Boldt](http://www.mattboldt.com)
+Typed.js is a jQuery plugin that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
 
-TODO: Delete this and the text above, and describe your gem
+[View the official Demo here](http://www.mattboldt.com/demos/typed-js/)
+[View the demo on my website](http://www.codebrew.io)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'typedjsrails'
+gem 'typedjs'
 ```
 
 And then execute:
 
-    $ bundle
+	$ bundle
 
 Or install it yourself as:
 
-    $ gem install typedjsrails
+	$ gem install typedjs
 
 ## Usage
 
-TODO: Write usage instructions here
+To your ```application.js``` file, add:
+```Javascript
+//= require typedjs
+```
 
-## Development
+This is all you need to get going:
+```Javascript
+<script>
+    $(function(){
+        $(".element").typed({
+            strings: ["First sentence.", "Second sentence."],
+            typeSpeed: 0
+        });
+    });
+</script>
+...
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+<span class="element"></span>
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Visit [the official typed.js repo](https://github.com/mattboldt/typed.js/) for customizations and a more detailed usage guide.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/typedjsrails.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rahullakhaney/typedjs.
 
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). 
 
