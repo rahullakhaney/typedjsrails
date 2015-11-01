@@ -44,7 +44,9 @@ This is all you need to get going:
 <span class="element"></span>
 ```
 
-Visit [the official typed.js repo](https://github.com/mattboldt/typed.js/) for customizations and a more detailed usage guide.
+## Customizations
+
+[Visit the official typed.js repo for customizations and a more detailed usage guide.](https://github.com/mattboldt/typed.js/) 
 
 ## Contributing
 
