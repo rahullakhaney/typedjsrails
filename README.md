@@ -1,6 +1,7 @@
 # Typed.js Gem
 
-[Developed by Matt Boldt](http://www.mattboldt.com)
+
+A ruby gem for typed.js plugin [developed by Matt Boldt](http://www.mattboldt.com)
 Typed.js is a jQuery plugin that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
 
 [View the official Demo here](http://www.mattboldt.com/demos/typed-js/)
