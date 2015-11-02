@@ -1,5 +1,5 @@
 # Typed.js Gem
-
+[![Gem Version](https://badge.fury.io/rb/typedjsrails.svg)](https://badge.fury.io/rb/typedjsrails)
 
 A ruby gem for typed.js plugin [developed by Matt Boldt](http://www.mattboldt.com)
 Typed.js is a jQuery plugin that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
